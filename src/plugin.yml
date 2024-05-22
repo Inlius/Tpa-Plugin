@@ -1,0 +1,14 @@
+name: TpaPlugin
+version: '${project.version}'
+main: de.tim.tpaplugin.TpaPlugin
+api-version: '1.20'
+commands:
+  tpa:
+    usage: /tpa <Player>
+    description: sends a TPA request to a Player
+    aliases: /tpa <Player>
+  tpaaccept:
+    usage: /tpaaccept
+    description: accept Tpa
+
+
